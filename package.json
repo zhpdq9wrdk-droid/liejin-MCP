@@ -1,0 +1,29 @@
+{
+  "name": "liejin-mcp",
+  "version": "2.1.0",
+  "type": "module",
+  "description": "猎金托管系统的 MCP 服务器：用一把 API 密钥连接 https://liejin.top/mcp，不含任何账号数据",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "hunter"
+  ],
+  "license": "UNLICENSED",
+  "bin": {
+    "liejin-mcp": "./index.mjs"
+  },
+  "files": [
+    "index.mjs",
+    "bridge-client.mjs",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
